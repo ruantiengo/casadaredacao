@@ -18,20 +18,6 @@ const Slider = () => {
       img: "/ruan.webp",
       rate: 5,
     },
-    {
-      name: "Ruan Tiengo 2",
-      comment:
-        '"In this article, we have taken a look at a number of ways in which you can style a document using CSS. We will be developing this knowledge"',
-      img: "/ruan.webp",
-      rate: 5,
-    },
-    {
-      name: "Ruan Tiengo 3",
-      comment:
-        '"A expressão Lorem ipsum em design gráfico e editoração é um texto padrão em latim utilizado na produção gráfica para preencher os espaços de texto em publicações para testar e ajustar aspectos visuais antes de utilizar conteúdo rea"',
-      img: "/ruan.webp",
-      rate: 5,
-    },
   ];
   const [selected, setSelected] = useState(0);
 
