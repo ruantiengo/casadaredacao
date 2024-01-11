@@ -71,7 +71,7 @@ const Slider = () => {
   );
   return (
     <>
-      <div className="flex items-center mt-20">
+      <div className="flex items-center mt- 2xl:mt-20">
         <ArrowLeft
           onClick={() => {
             setSelected((old) => {
@@ -81,7 +81,7 @@ const Slider = () => {
           size={32}
           className="h-8 w-8 "
         />
-        <div className="flex lg:w-[700px] w-[90%] h-[450px] bg-purple-700 rounded-xl items-center justify-center">
+        <div className="mt-4 mb-4 flex lg:w-[700px] w-[90%] h-[350px] bg-purple-700 rounded-xl items-center justify-center">
           {selectedReview(selected)}
         </div>
         <ArrowRight
@@ -90,7 +90,7 @@ const Slider = () => {
               return old === options.length - 1 ? 0 : old + 1;
             });
           }}
-          size={32} 
+          size={32}
           className="h-8 w-8"
         />
       </div>
@@ -100,7 +100,7 @@ const Slider = () => {
             <div
               key={Math.random()}
               onClick={() => {
-                setSelected(i)
+                setSelected(i);
               }}
               className={`${
                 selected === i ? "bg-purple-600" : "bg-gray-300"

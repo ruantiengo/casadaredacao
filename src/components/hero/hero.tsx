@@ -5,10 +5,10 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="container transition-all duration-150 h-screen flex items-center justify-center">
+    <div className="container  flex items-center justify-center pt-[76px]">
       <div className="flex w-full items-center justify-center relative flex-col xl:justify-evenly xl:flex-row gap-8 xl:gap-0">
         <div className="flex flex-col items-start justify-start text-start">
-          <h1 className="text-[42px] lg:text-[48px] 2xl:text-[64px] font-bold lg:w-[540px] pb-8">
+          <h1 className="text-[42px] lg:text-[54px] 2xl:text-[64px] font-bold lg:w-[540px] pb-8">
             Venha aprender a fazer uma boa redação.
           </h1>
           <span className="text-md lg:text-xl lg:w-[400px]">
@@ -21,14 +21,16 @@ const Hero = () => {
             </Button>
           </Link>
         </div>
-        <div className="hidden xl:block xl:w-[550px] xl:h-[550px]">
-          <div className="w-[300px] h-[300px] xl:w-[550px] xl:h-[550px] linearPurple rounded-full animate-spin transition-all absolute"></div>
+        <div className="hidden xl:flex items-center justify-center xl:w-[350px]  xl:h-[350px] 2xl:w-[550px] 2xl:h-[550px]">
+          <div className="absolute w-[300px] h-[300px] xl:w-[350px] z-1  xl:h-[350px] 2xl:w-[550px] 2xl:h-[550px] linearPurple rounded-full animate-spin transition-all">
+            {" "}
+          </div>
           <Image
             src={"/writing.png"}
             width={500}
             height={400}
             alt="Garota escrevendo redação"
-            className="absolute flex items-center justify-center"
+            className="xl:h-[300px] 2xl:w-[150px] z-10"
           />
         </div>
       </div>
