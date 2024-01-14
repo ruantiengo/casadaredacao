@@ -1,13 +1,4 @@
 import React from "react";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "../ui/card";
-import { Button } from "../ui/button";
 import SkillCard from "./SkillCard";
 
 const SkillPage = () => {
@@ -18,21 +9,26 @@ const SkillPage = () => {
         Curso on-line, de alto desempenho, com aulas semanais ao vivo, material
         exclusivo e atualizado, plantões, correções e muito mais!
       </span>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-12 mt-8 md:mt-12">
+      <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-12 mt-8 md:mt-12">
         <SkillCard
           title="Aula de inglês"
-          description="Aprenda inglês de forma prática!"
+          description="Domine o idioma. Listening, speaking, writing and reading."
           content="Converse, compreenda e domine o inglês."
         />
         <SkillCard
           title="Aulas de Redação"
-          description="Aprenda a arte da escrita persuasiva!"
+          description="Aprimore suas habilidades de escrita para o ENEM, vestibulares e concursos."
           content="Desenvolva sua capacidade de expressão e argumentação."
         />
         <SkillCard
           title="Aulas de Português Particulares"
           description="Melhore seu domínio no idioma português!"
           content="Aprimore gramática, vocabulário e comunicação escrita."
+        />
+        <SkillCard
+          title="Atividades para professores"
+          description="Material pedagógico para professores."
+          content="Material de qualidade para seus alunos."
         />
       </div>
     </div>
