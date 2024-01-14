@@ -26,7 +26,7 @@ const SkillCard = ({ content, description, title }: SkilldCardProps) => {
         <p>{content}</p>
       </CardContent>
       <CardFooter>
-        <Link href="https://wa.me/553199381037">
+        <Link href="https://wa.me/553199381037" target="_blank">
           <Button>Saiba mais</Button>
         </Link>
       </CardFooter>
