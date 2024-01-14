@@ -1,4 +1,4 @@
-export type SiteConfig = typeof siteConfig
+export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
   name: "Syshorta",
@@ -18,7 +18,7 @@ export const siteConfig = {
       href: "#skill",
     },
     {
-      title: "Contato",
+      title: "Feedbacks",
       href: "#feedback",
     },
   ],
@@ -27,4 +27,4 @@ export const siteConfig = {
     instagram: "https://instagram.com",
     docs: "https://ui.shadcn.com",
   },
-}
+};
